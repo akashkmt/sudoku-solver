@@ -1,0 +1,87 @@
+.sudoku-input-box{
+    /* border: 2px dotted blue; */
+    width: 465px;
+    background-color: rgba(199, 175, 170, 0.26);
+    padding: 5px;
+    margin: auto;
+    display: grid;
+    border-radius: 10px;
+}
+
+.sudoku-input-box-row{
+    /* border: 1px solid red; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    /* column-gap: 1px; */
+}
+
+.sudoku-input-box-cell{
+    /* width: 20px; */
+    /* border: .1px solid gray; */
+    /* background-color: gray; */
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.sudoku-input-box-cell > input {
+    width:30px;
+    height:30px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    outline: none;
+    border: .1px solid rgba(215, 164, 164, 0.421);
+    background-color: rgba(252, 251, 251, 0.458);
+    border-radius: 5px;
+    color: red;
+}
+
+.button-box{
+    width: 465px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 30px;
+    justify-content: center;
+}
+
+.button-box > button{
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    /* margin: auto; */
+    outline: none;
+    border:none;
+    /* border: .1px solid rgba(215, 164, 164, 0.421); */
+    background-color: rgba(199, 175, 170, 0.26);
+    border-radius: 10px;
+    color: rgb(79, 67, 62);
+    letter-spacing: 1px;
+    transition: 1s;
+}
+
+.button-box > button:hover{
+    transition: 1s;
+    background-color: rgba(199, 175, 170, 0.659);
+    color: rgb(28, 27, 26);
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
