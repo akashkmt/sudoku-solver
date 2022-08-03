@@ -6,3 +6,5 @@
 <p>---> Create Sudoku</p>
 <p>---> Solve Sudoku</p>
 <p>---> Reset Sudoku</p>
+
+<img src="https://user-images.githubusercontent.com/97526754/182717145-2224601c-93d6-4059-9386-fbd0cd0e4d0f.png" />
